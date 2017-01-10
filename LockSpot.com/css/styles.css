@@ -1,0 +1,155 @@
+/* Style sheet created by: Brandon Simms October 1st, 2016  */
+
+/* style for body specifies a background color */
+body { 
+	background-color: #bbbbbb;
+	font-family: Cambria, "Times New Roman", serif;
+	
+}
+
+/* style for container centers the page and sets the element width */
+#container {
+	width:80%;
+	height:95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment*/
+
+header {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 12px 12px 12px #404040;
+	text-align: center;
+}
+
+/* style for nav specifies text properties, padding, margins, and borders */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: right;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border-top: 5px solid #ffffff;
+	border-bottom: 5px solid #ffffff;
+}
+
+main {
+	display: block;
+	font-family: verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	box-shadow: 12px 12px 12px #404040;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.equip {
+	float: left;
+	padding-right: 20px;
+}
+
+ul {
+	margin-bottom: 50px;
+	list-style-position: inside;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	padding-bottom: 20px;
+}
+
+.mobile {
+	font-size:10pt;
+	display: none;
+}
+
+h1 {
+	text-align: center;
+}
+img {
+    max-width: 90%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+a {
+	text-decoration: none;
+	color: rgba(75,0,147,10.0);
+}
+#row3a {
+	float: left;
+	width: 270px;
+	height: 270px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	/* [disabled]background-color: #CCC; */
+	clear: left;
+	-webkit-box-shadow: 2px 4px 10px rgba(0,0,0,0.35);
+	box-shadow: 2px 4px 10px rgba(0,0,0,0.35);
+	border-bottom-left-radius: 10px;
+}
+#row3b {
+	float: left;
+	width: 270px;
+	height: 270px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	/* [disabled]background-color: #CCC; */
+	-webkit-box-shadow: 2px 4px 10px rgba(0,0,0,0.35);
+	box-shadow: 2px 4px 10px rgba(0,0,0,0.35);
+	border-bottom-left-radius: 10px;
+}
+#row3c {
+	float: left;
+	width: 270px;
+	height: 270px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	/* [disabled]background-color: #CCC; */
+	-webkit-box-shadow: 2px 4px 10px rgba(0,0,0,0.35);
+	box-shadow: 2px 4px 10px rgba(0,0,0,0.35);
+	border-bottom-left-radius: 10px;
+}
+.square-link {
+	height: 50px;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: rgba(255,255,255,0.66);
+	-webkit-box-shadow: 2px 4px 10px rgba(0,0,0,0.35);
+	box-shadow: 2px 4px 10px rgba(0,0,0,0.35);
+	font-size: 45px;
+	padding-bottom: 2%;
+}
+.square-link a {
+	padding-left: 10px;
+}
+nav a:hover {
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+h3 {
+	color:rgba(75,0,147,10.0)
+	}
+h1 {
+	color: rgba(75,0,147,10.0);
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
